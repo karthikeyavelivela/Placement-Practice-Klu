@@ -1,0 +1,156 @@
+%-------------------------
+% Resume in LaTeX — Student Software Engineering Resume
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Your Name} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-XXXXXXXXXX ~
+    \href{mailto:yourmail@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{yourmail@gmail.com}} ~
+    \href{https://linkedin.com/in/yourprofile}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/yourprofile}} ~
+    \href{https://github.com/yourgithub}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/yourgithub}}
+    \\ Expected Graduation: 2027 ~|~ CGPA: X.XX
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KL University}{Guntur, Andhra Pradesh}
+      {Bachelor of Technology in Computer Science and Engineering}{2023 -- 2027}
+      \resumeItemListStart
+        \resumeItem{Coursework: Data Structures, Algorithms, OOPS, DBMS, Operating Systems, Computer Networks, Software Engineering.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeItemListStart
+    \resumeItem{\textbf{Programming:} C, Python, Java, JavaScript.}
+    \resumeItem{\textbf{Web:} HTML, CSS, React.js, Node.js (Basics).}
+    \resumeItem{\textbf{Databases:} MySQL, MongoDB (Basics).}
+    \resumeItem{\textbf{Tools:} Git, GitHub, VS Code.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Software Development Intern}{May 2025 -- Jul 2025}
+    {Academic / Internship Project}{Remote}
+    \resumeItemListStart
+        \resumeItem{Worked on building and testing basic web application features as part of an academic internship.}
+        \resumeItem{Implemented CRUD operations and RESTful APIs for small-scale modules.}
+        \resumeItem{Collaborated with peers using Git and GitHub for version control.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading{\textbf{Student Management System} $|$ \emph{C, File Handling}}{2024}
+      \resumeItemListStart
+        \resumeItem{Developed a console-based system to manage student records.}
+        \resumeItem{Implemented add, update, delete, and search functionalities.}
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading{\textbf{Personal Portfolio Website} $|$ \emph{HTML, CSS, JavaScript}}{2024}
+      \resumeItemListStart
+        \resumeItem{Designed and developed a responsive personal portfolio website.}
+        \resumeItem{Showcased projects, skills, and contact information.}
+      \resumeItemListEnd
+      \vspace{-13pt}
+
+    \resumeProjectHeading{\textbf{Task Management Web App} $|$ \emph{React, Node.js}}{2025}
+      \resumeItemListStart
+        \resumeItem{Built a basic task manager with user authentication.}
+        \resumeItem{Implemented task creation, deletion, and status updates.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]\small{
+     \item{Programming Fundamentals — Online Platform}
+     \item{Web Development Basics — Online Course}
+ }
+ \end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{Leadership \& Achievements}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Active member of university technical clubs.}
+        \resumeItem{Participated in coding contests and hackathons.}
+        \resumeItem{Completed multiple academic and personal projects.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
